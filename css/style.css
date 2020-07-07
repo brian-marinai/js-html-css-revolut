@@ -12,7 +12,7 @@ body{
 header .nav-header li a{
   font-weight: 500;
   font-size: 16px;
-  color: lightslategray;
+  color: rgb(139, 149, 158);
   text-decoration: none;
 }
 ul li a:hover{
@@ -54,14 +54,14 @@ main{
   padding: 13px 25px;
   color: white;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 0.75rem;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
 .button button:hover{
-  background-color: lightslategray;
-  border-color: lightslategray;
+  background-color: rgba(25, 28, 31, 0.84);
+  border-color: rgba(25, 28, 31, 0.84);
 }
 .nav-main .menu-main{
   margin-left: 6%;
@@ -79,6 +79,8 @@ main{
   top: 40px;
   left: 0px;
   box-shadow: 0px 0px 10px 0px #ccc;
+}
+.hidden{
   display: none;
 }
 .nav-main ul li .maindropdown{
@@ -87,7 +89,7 @@ main{
 
 .maindropdown ul li{
   font-size: 16px;
-  color: lightslategray;
+  color: rgb(139, 149, 158);
   text-decoration: none;
   font-weight: 300;
   line-height: 45px;
@@ -95,8 +97,70 @@ main{
 }
 .nav-main ul li,a{
   text-decoration: none;
-  color: lightslategray;
+  color: rgb(139, 149, 158);
 }
 .maindropdown ul{
   margin: 15px 5px 15px 5px;
+}
+.jumbotron{
+  display: flex;
+}
+.jumbosx{
+  width: 42%;
+}
+.jumbotron .jumbosx h1{
+  font-size: 76px;
+  font-weight: 600;
+  line-height: 87px;
+  color: rgb(25, 28, 31);
+  margin-top: 130px;
+}
+.jumbotron .jumbosx p{
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(139, 149, 158);
+  margin-top: 45px;
+}
+.jumbotron .jumbosx .input input{
+  margin-top: 50px;
+  border: medium none;
+  border-bottom: 1px solid rgb(139, 149, 158);
+  margin-right: 15px;
+}
+.jumbotron .jumbosx .input input:first-of-type{
+  width: 40px;
+}
+.jumbotron .jumbosx button{
+  display: inline-block;
+  background-color: rgb(25, 28, 31);
+  width: 8.625rem;
+  height: 3.5rem;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.25rem;
+  border-radius: 0.75rem;
+  border: medium none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.jumbotron .jumbosx button:hover{
+  background-color: rgba(25, 28, 31, 0.84);
+  border-color: rgba(25, 28, 31, 0.84);
+}
+.flex{
+  display: flex;
+  align-items: flex-start;
+}
+.jumbotron .jumbodx{
+  position: relative;
+  width: 50%;
+}
+.jumbodx img{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  z-index: -1;
 }
