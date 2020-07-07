@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: white;
+}
+
+header .nav-header li a{
+  font-weight: 500;
+  font-size: 16px;
+  color: lightslategray;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: black;
+}
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  padding: 20px 15%;
+  background-color: rgb(243, 244, 245);
+}
+
+header ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+main{
+  padding: 30px 16%;
+}
+
+.nav-main{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav-main ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.button{
+  margin-left: auto;
+}
+.button button{
+  background-color: black;
+  padding: 13px 25px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.button button:hover{
+  background-color: lightslategray;
+  border-color: lightslategray;
+}
+.nav-main .menu-main{
+  margin-left: 6%;
+}
+#logo{
+  font-weight: 900;
+  font-size: 35px;
+  color: black;
+}
+.parent-dropdown{
+  position: relative;
+}
+.dropdown{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  display: none;
+}
+.nav-main ul li .maindropdown{
+  background-color: white;
+}
+
+.maindropdown ul li{
+  font-size: 16px;
+  color: lightslategray;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 45px;
+  display: block ruby;
+}
+.nav-main ul li,a{
+  text-decoration: none;
+  color: lightslategray;
+}
+.maindropdown ul{
+  margin: 15px 5px 15px 5px;
+}
