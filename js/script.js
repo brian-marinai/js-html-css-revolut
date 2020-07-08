@@ -1,6 +1,6 @@
 $(document).ready(function (){
-  $(".parent-dropdown").mouseover(function (){
-    $(this).children(".dropdown").toggle();
+  $(".parent-dropdown").hover(function (){
+    $(this).children(".dropdown").toggleClass("hidden active");
   });
 });
 
