@@ -3,14 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 body{
   font-family: 'Noto Sans JP', sans-serif;
   background-color: white;
 }
 
+/* parte header */
 header .nav-header li a{
   font-weight: 500;
   font-size: 16px;
@@ -36,6 +34,7 @@ header ul li{
   padding: 0 20px;
 }
 
+/* parte main */
 main{
   padding: 30px 16%;
   height: 100%;
@@ -71,7 +70,6 @@ main{
 }
 
 /* media query */
-
 @media screen and (max-width: 1352px) {
   header{
     display: none;
@@ -142,9 +140,6 @@ main{
 .nav-main .menu-main{
   margin-left: 6%;
 }
-
-
-
 #logo{
   font-weight: 900;
   font-size: 35px;
@@ -165,6 +160,9 @@ main{
   top: 20px;
   left: 0px;
   z-index: 5;
+}
+.dropdown2{
+
 }
 
 .nav-main ul li .maindropdown{
@@ -193,11 +191,11 @@ main{
   margin-top: 30px;
 }
 .parent-dropdown-burger{
-
+  margin-bottom: 50px;
 }
 .maindropdown-burger{
-  margin-top: 130px;
-  height: 200px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  background-color: white;
   width: 100%;
 }
 .maindropdown-burger ul li{
@@ -208,6 +206,8 @@ main{
   line-height: 45px;
   display: block ruby;
 }
+
+/* parte jumbotron */
 .jumbotron{
   display: flex;
 }

@@ -13,7 +13,7 @@ $(document).ready(function (){
   }
 );
   $(".parent-dropdown-burger").hover(function (){
-    $(this).children(".dropdown").toggleClass("hidden active");
+    $(this).children(".dropdown2").toggleClass("hidden active");
   });
 });
 
